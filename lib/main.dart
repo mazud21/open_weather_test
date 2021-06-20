@@ -46,7 +46,7 @@ class _WeatherState extends State<Weather> {
   String i;
 
   getCityWeather() async {
-    var key = "b72db5485a8af53fa7b1e6267df11a60";
+    var key = "";
 
     String baseUrl =
         'https://api.openweathermap.org/data/2.5/weather?q=Bantul&units=metric&lang=id&appid=$key';
